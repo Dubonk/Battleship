@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../Roboto-Black.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: Honk;
+    src: url(../Honk-Regular.ttf) format('ttf');
+    font-weight: 400;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to top, #09203f 0%, #537895 100%) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#pageTitle {
+    font-family: 'Honk', system-ui;
+    font-weight: 900;
+    font-size: 54px;
+    background: -webkit-linear-gradient(#eee, #696969);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
